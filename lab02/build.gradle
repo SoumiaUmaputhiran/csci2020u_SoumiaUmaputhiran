@@ -1,0 +1,23 @@
+// Author: Soumia Umaputhiran
+// CSCI 2020U
+// This is an example of a starter 'build.gradle' file
+// Reference: https://docs.gradle.org/current/samples/sample_building_java_applications.html
+
+/* Plugins */
+// Reference: https://docs.gradle.org/current/userguide/java_plugin.html
+
+// apply plugin: 'java'
+// apply plugin: 'application'
+// ...
+// or
+plugins {
+	id 'java'
+	id 'application'
+	// ...
+}
+
+/* Main Class Definition */
+
+//mainClassName = '<package>.<subpackage>.<MainClassName>'
+
+mainClassName = 'csci2020u.lab02.SimpleTest'
