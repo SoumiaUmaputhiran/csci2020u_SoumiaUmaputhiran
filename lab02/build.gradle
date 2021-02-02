@@ -11,9 +11,9 @@
 // ...
 // or
 plugins {
-	id 'java'
-	id 'application'
-	// ...
+        id 'java'
+        id 'application'
+        // ...
 }
 
 /* Main Class Definition */
@@ -21,3 +21,15 @@ plugins {
 //mainClassName = '<package>.<subpackage>.<MainClassName>'
 
 mainClassName = 'csci2020u.lab02.SimpleTest'
+
+repositories {
+	mavenCentral() // Uses the 'Maven Central' repository for fetching libraries
+	// ...
+}
+
+dependencies{
+	implementation 'org.apache.commons:commons-csv:1.8'
+}
+
+
+
