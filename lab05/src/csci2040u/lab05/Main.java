@@ -25,7 +25,8 @@ public class Main extends Application {
         stage.setTitle("Lab05");
         stage.setWidth(650);
         stage.setHeight(500);
-
+        
+        //Used: https://docs.oracle.com/javafx/2/ui_controls/table-view.htm
 
         TableColumn sidCol = new TableColumn("SID");
         sidCol.setMinWidth(100);
