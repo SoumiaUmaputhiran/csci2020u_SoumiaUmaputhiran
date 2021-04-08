@@ -54,11 +54,6 @@ public class Main extends Application {
         hbExitBtn.getChildren().add(exitBtn);
 
         exitBtn.setOnAction((event) -> {
-            try {
-                socket.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
             System.exit(0);
         });
 
